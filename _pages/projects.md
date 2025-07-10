@@ -1,11 +1,11 @@
 ---
 layout: page
-title: projects
+title: Projects
 permalink: /projects/
-description: A growing collection of your cool projects.
+description: This page showcases a curated selection of my projects in Artificial Intelligence, Machine Learning, Reinforcement Learning, Computer Vision, and Telecommunications. Each project highlights innovative applications of cutting-edge technologies, demonstrating strong problem-solving skills, technical expertise, and contributions to real-world challenges.
 nav: true
 nav_order: 3
-display_categories: [work, fun]
+display_categories: [Machine Learning, Reinforcement Learning, Computer Vision, Telecommunications]
 horizontal: false
 ---
 

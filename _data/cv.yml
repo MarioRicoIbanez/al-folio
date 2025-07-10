@@ -1,97 +1,107 @@
+---
 - title: General Information
   type: map
   contents:
     - name: Full Name
-      value: Albert Einstein
-    - name: Date of Birth
-      value: 14th March 1879
-    - name: Languages
-      value: English, German
+      value: Mario Rico Ibáñez
+    - name: Phone
+      value: +41 076 688 07 25
+    - name: Email
+      value: mario.ricoibanez@epfl.ch
+    - name: LinkedIn
+      value: linkedin.com/in/mario-rico-ibáñez-6b5888225/
+    - name: GitHub
+      value: github.com/MarioRicoIbanez
+    - name: Location
+      value: Lausanne, Switzerland
 
 - title: Education
   type: time_table
   contents:
-    - title: PhD
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1905
+    - title: MSc in Computer Science
+      institution: École Polytechnique Fédérale de Lausanne
+      year: 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Federal teaching diploma
-      institution: Eidgenössische Technische Hochschule, Zurich, Switzerland
-      year: 1900
+        - GPA: 5.36/6
+        - Relevant Coursework: Machine Learning, Modern Natural Language Processing, Reinforcement Learning, Mobile Networks, Intelligent Agents, Algorithms, Distributed Algorithms
+        - Key Project: Led research on adversarial attacks on image-to-image generative models, enhancing model robustness
+    - title: BSc in Telecommunications Engineering
+      institution: Universitat Politècnica de València
+      year: 2020 - 2024
       description:
-        - Description 1.
-        - Description 2.
+        - Specialization: Telecommunication Systems
+        - GPA: Top 3 out of 200+ students; 22/40 subjects with honors
+        - Participant in High Performance Group with English teaching
+        - Relevant Coursework: Algebra, Calculus, Probability and Random Signals, Digital Signal Processing, Digital and Analog Electronics, Information Theory, Spatial Communications, Mobile and Wireless Communications, Digital Communications, Telematics, Antennas, Electromagnetic Waves, Microwaves
+        - Bachelor's Thesis: Developed Deep Reinforcement Learning model for UAV Base Station Dynamic Positioning, optimizing network coverage
+    - title: Diploma in Artificial Intelligence by SAMSUNG INNOVATION
+      institution: Universitat Politècnica de València
+      year: Sept. 2022 - Dec. 2022
+      description:
+        - Equivalent to 35 ECTS
+        - Coursework: Maths for Data Science, Probability and Statistics, Python for Data Science, Machine Learning, Deep Learning, Natural Language Processing
+        - Final Project: Emotion Detection through audio and text (GitHub Repo: https://github.com/laurarimi/IA-project/tree/main)
+    - title: BSc in Mathematics
+      institution: Universidad Nacional de Educación a Distancia
+      year: 2023 - 2030
+      description:
+        - Currently enrolled
+        - Coursework: Discrete Maths, Formal Languages, Basic Geometry
 
-- title: Experience
+- title: Professional Experience
   type: time_table
   contents:
-    - title: Professor of Theoretical Physics
-      institution: Institute for Advanced Study, Princeton University
-      year: 1933 - 1955
+    - title: Machine Learning Developer
+      institution: Computer Vision & Behaviour Analysis Lab
+      year: March 2023 - July 2024
       description:
-        - Description 1.
-        - Description 2.
-        - title: Description 3.
-          contents:
-            - Sub-description 1.
-            - Sub-description 2.
-    - title: Visiting Professor
-      institution: California Institute of Technology, Pasadena, California, US
-      year: 1933
+        - Developed state-of-the-art text models for multilabel emotion recognition in psychological contexts
+        - Conducted comparative research on Encoder-only (BERT, RoBERTa) vs. Decoder-only Transformers (Llama-2, Mistral, Qwen) for emotion recognition
+        - Explored explainability of Large Language Models in emotion detection tasks
+    - title: Machine Learning Developer
+      institution: Instituto de Telecomunicaciones y Aplicaciones Multimedia
+      year: January 2024 - Present
       description:
-        - Description 1.
-        - Description 2.
+        - Built GPU-based system-level wireless communication simulator using PyTorch for 5G/6G multi-carrier, massive MIMO systems
+        - Implemented Deep Reinforcement Learning strategies to optimize Base Station placement, enhancing network efficiency
+        - Investigated DRL applicability in various telecom scenarios, including multi-layer environments and user distributions
+        - Supervised by Prof. Valery Naranjo Ornedo and Dr. David López Pérez
 
-    - title: Director
-      institution: Kaiser Wilhelm Institute for Physics, Berlin, Germany.
-      year: 1917-1933
-
-    - title: Professor of Theoretical Physics
-      institution: Karl-Ferdinand University, Prague, Czechoslovakia
-      year: 1911 - 1917
-      description:
-
-    - title: Associate Professor of Theoretical Physics
-      institution: University of Zurich, Zurich, Switzerland
-      year: 1909 - 1911
-
-- title: Open Source Projects
-  type: time_table
-  contents:
-    - title: <a href="https://github.com/alshedivat/al-folio">al-folio</a>
-      year: 2015-now
-      description: A beautiful, simple, clean, and responsive Jekyll theme for academics.
-
-- title: Honors and Awards
-  type: time_table
-  contents:
-    - year: 1921
-      items:
-        - Nobel Prize in Physics
-        - Matteucci Medal
-    - year: 2029
-      items:
-        - Max Planck Medal
-
-- title: Academic Interests
-  type: nested_list
-  contents:
-    - title: Topic 1.
-      items:
-        - Description 1.
-        - Description 2.
-    - title: Topic 2.
-      items:
-        - Description 1.
-        - Description 2.
-
-- title: Other Interests
+- title: Publications
   type: list
   contents:
-    - <u>Hobbies:</u> Hobby 1, Hobby 2, etc.
+    - Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery. "Mejorando el Análisis de Emociones en texto mediante Llama 2." XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica, 2023. [Link](https://repositorio.upct.es/handle/10317/13756)
+    - Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni. "Optimizing Aerial Base Station Positioning Using Deep Reinforcement Learning in UAV Networks." International Conference on Communications (Under Review)
+
+- title: Projects
+  type: nested_list
+  contents:
+    - title: Adversarial Attacks on Image-to-Image Generative Models
+      items:
+        - Investigated robustness of Diffusion Model-based generative models against attacks like Automatic Projected Gradient Descent
+        - Developed adversarial strategies and defenses (e.g., RobustCLIP), evaluating performance across datasets
+        - Supervised by Prof. Volkan Cevher and Elias Abad Rocamora
+    - title: Impact of Whole-Slide Image Resolution on Pathology Models
+      items:
+        - Analyzed effects of WSI resolution on histopathological foundation models across magnification levels
+        - Implemented preprocessing pipeline and Multiple-Instance Learning techniques (mean pooling, gated attention)
+        - Conducted ablation studies on BACH, BRACS, BreakHis datasets, demonstrating key insights on model architecture
+    - title: Evolution Strategies for Deep RL Pretraining (EPFL Course Project)
+      items:
+        - Explored ES as standalone RL method and pretraining for DQN/PPO in Flappy Bird, Breakout, MuJoCo environments
+        - Demonstrated ES pretraining accelerates learning in simple tasks but shows limitations in complex scenarios
+        - GitHub Repo: https://github.com/talphaidze/Evolution-Strategies-for-Deep-RL-Pretraining
+
+- title: Additional Experience and Awards
+  type: list
+  contents:
+    - IAESTE Faculty Delegate: Secured international job placements for students, facilitating matches and application support (1 academic year)
+    - Honors at Upper Secondary School: Achieved honors in final year
+
+- title: Skills and Interests
+  type: list
+  contents:
+    - Programming: Python, PyTorch, TensorFlow, Keras, Bash, Assembly, SystemVerilog, MATLAB, Java (Beginner), Git, LaTeX, Docker
+    - Languages: Spanish (Native), English (Fluent), French (B1)
+    - Interests: Sports (Gym, Running, Tennis, Boxing), Technological Advancements, Nature, Rubik's Cube, Teaching
+---
