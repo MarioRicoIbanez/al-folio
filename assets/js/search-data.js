@@ -38,8 +38,8 @@ ninja.data = [{
             window.location.href = "/al-folio/repositories/";
           },
         },{id: "nav-cv",
-          title: "cv",
-          description: "This is a description of the page. You can modify it in &#39;_pages/cv.md&#39;. You can also change or remove the top pdf download button.",
+          title: "CV",
+          description: "Detailed curriculum vitae highlighting technical expertise and achievements geared towards roles in FAANG-level companies.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/cv/";
