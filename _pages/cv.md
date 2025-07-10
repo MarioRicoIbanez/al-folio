@@ -9,5 +9,3 @@ description: Detailed curriculum vitae highlighting technical expertise and achi
 toc:
   sidebar: left
 ---
-
-

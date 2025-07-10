@@ -22,31 +22,31 @@
       institution: École Polytechnique Fédérale de Lausanne
       year: 2024 - Present
       description:
-        - GPA: 5.36/6
-        - Relevant Coursework: Machine Learning, Modern Natural Language Processing, Reinforcement Learning, Mobile Networks, Intelligent Agents, Algorithms, Distributed Algorithms
+        - "GPA: 5.36/6"
+        - "Relevant Coursework: Machine Learning, Modern Natural Language Processing, Reinforcement Learning, Mobile Networks, Intelligent Agents, Algorithms, Distributed Algorithms"
         - Key Project: Led research on adversarial attacks on image-to-image generative models, enhancing model robustness
     - title: BSc in Telecommunications Engineering
       institution: Universitat Politècnica de València
       year: 2020 - 2024
       description:
         - Specialization: Telecommunication Systems
-        - GPA: Top 3 out of 200+ students; 22/40 subjects with honors
+        - "GPA: Top 3 out of 200+ students; 22/40 subjects with honors"
         - Participant in High Performance Group with English teaching
-        - Relevant Coursework: Algebra, Calculus, Probability and Random Signals, Digital Signal Processing, Digital and Analog Electronics, Information Theory, Spatial Communications, Mobile and Wireless Communications, Digital Communications, Telematics, Antennas, Electromagnetic Waves, Microwaves
-        - Bachelor's Thesis: Developed Deep Reinforcement Learning model for UAV Base Station Dynamic Positioning, optimizing network coverage
+        - "Relevant Coursework: Algebra, Calculus, Probability and Random Signals, Digital Signal Processing, Digital and Analog Electronics, Information Theory, Spatial Communications, Mobile and Wireless Communications, Digital Communications, Telematics, Antennas, Electromagnetic Waves, Microwaves"
+        - "Bachelor's Thesis: Developed Deep Reinforcement Learning model for UAV Base Station Dynamic Positioning, optimizing network coverage"
     - title: Diploma in Artificial Intelligence by SAMSUNG INNOVATION
       institution: Universitat Politècnica de València
       year: Sept. 2022 - Dec. 2022
       description:
-        - Equivalent to 35 ECTS
-        - Coursework: Maths for Data Science, Probability and Statistics, Python for Data Science, Machine Learning, Deep Learning, Natural Language Processing
-        - Final Project: Emotion Detection through audio and text (GitHub Repo: https://github.com/laurarimi/IA-project/tree/main)
+        - "Equivalent to 35 ECTS"
+        - "Coursework: Maths for Data Science, Probability and Statistics, Python for Data Science, Machine Learning, Deep Learning, Natural Language Processing"
+        - "Final Project: Emotion Detection through audio and text (GitHub Repo: https://github.com/laurarimi/IA-project/tree/main)"
     - title: BSc in Mathematics
       institution: Universidad Nacional de Educación a Distancia
       year: 2023 - 2030
       description:
         - Currently enrolled
-        - Coursework: Discrete Maths, Formal Languages, Basic Geometry
+        - "Coursework: Discrete Maths, Formal Languages, Basic Geometry"
 
 - title: Professional Experience
   type: time_table
@@ -70,8 +70,8 @@
 - title: Publications
   type: list
   contents:
-    - Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery. "Mejorando el Análisis de Emociones en texto mediante Llama 2." XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica, 2023. [Link](https://repositorio.upct.es/handle/10317/13756)
-    - Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni. "Optimizing Aerial Base Station Positioning Using Deep Reinforcement Learning in UAV Networks." International Conference on Communications (Under Review)
+    - 'Rico Ibáñez, Mario; del Amor, Rocío; Naranjo, Valery. "Mejorando el Análisis de Emociones en texto mediante Llama 2." XLI Congreso Anual de la Sociedad Española de Ingeniería Biomédica, 2023. [Link](https://repositorio.upct.es/handle/10317/13756)'
+    - 'Rico Ibáñez, Mario; Akhtarshenas, Azim; López-Pérez, David; Geraci, Giovanni. "Optimizing Aerial Base Station Positioning Using Deep Reinforcement Learning in UAV Networks." International Conference on Communications (Under Review)'
 
 - title: Projects
   type: nested_list
@@ -90,18 +90,19 @@
       items:
         - Explored ES as standalone RL method and pretraining for DQN/PPO in Flappy Bird, Breakout, MuJoCo environments
         - Demonstrated ES pretraining accelerates learning in simple tasks but shows limitations in complex scenarios
-        - GitHub Repo: https://github.com/talphaidze/Evolution-Strategies-for-Deep-RL-Pretraining
+        - "GitHub Repo: https://github.com/talphaidze/Evolution-Strategies-for-Deep-RL-Pretraining"
 
 - title: Additional Experience and Awards
   type: list
   contents:
-    - IAESTE Faculty Delegate: Secured international job placements for students, facilitating matches and application support (1 academic year)
+    - "IAESTE Faculty Delegate: Secured international job placements for students, facilitating matches and application support (1 academic year)"
     - Honors at Upper Secondary School: Achieved honors in final year
 
 - title: Skills and Interests
   type: list
   contents:
-    - Programming: Python, PyTorch, TensorFlow, Keras, Bash, Assembly, SystemVerilog, MATLAB, Java (Beginner), Git, LaTeX, Docker
-    - Languages: Spanish (Native), English (Fluent), French (B1)
-    - Interests: Sports (Gym, Running, Tennis, Boxing), Technological Advancements, Nature, Rubik's Cube, Teaching
+    - "Programming: Python, PyTorch, TensorFlow, Keras, Bash, Assembly, SystemVerilog, MATLAB, Java (Beginner), Git, LaTeX, Docker"
+    - "Languages: Spanish (Native), English (Fluent), French (B1)"
+    - "Interests: Sports (Gym, Running, Tennis, Boxing), Technological Advancements, Nature, Rubik's Cube, Teaching"
 ---
+
