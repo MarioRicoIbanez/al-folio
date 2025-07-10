@@ -24,8 +24,8 @@ ninja.data = [{
             window.location.href = "/al-folio/publications/";
           },
         },{id: "nav-projects",
-          title: "projects",
-          description: "A growing collection of your cool projects.",
+          title: "Projects",
+          description: "This page showcases a curated selection of my projects in Artificial Intelligence, Machine Learning, Reinforcement Learning, Computer Vision, and Telecommunications. Each project highlights innovative applications of cutting-edge technologies, demonstrating strong problem-solving skills, technical expertise, and contributions to real-world challenges.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/projects/";
@@ -39,7 +39,7 @@ ninja.data = [{
           },
         },{id: "nav-cv",
           title: "CV",
-          description: "Detailed curriculum vitae highlighting technical expertise and achievements geared towards roles in FAANG-level companies.",
+          description: "Detailed curriculum vitae highlighting technical expertise and achievements.",
           section: "Navigation",
           handler: () => {
             window.location.href = "/al-folio/cv/";
@@ -451,14 +451,14 @@ ninja.data = [{
             },},{id: "news-a-simple-inline-announcement-with-markdown-emoji-sparkles-smile",
           title: 'A simple inline announcement with Markdown emoji! :sparkles: :smile:',
           description: "",
-          section: "News",},{id: "projects-project-1",
-          title: 'project 1',
-          description: "with background image",
+          section: "News",},{id: "projects-deep-reinforcement-learning-for-uav-base-station-dynamic-positioning",
+          title: 'Deep Reinforcement Learning for UAV Base Station Dynamic Positioning',
+          description: "Developed a DRL model to optimize UAV positioning for network coverage in telecommunications.",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/1_project/";
-            },},{id: "projects-project-2",
-          title: 'project 2',
-          description: "a project with a background image and giscus comments",
+            },},{id: "projects-multimodal-natural-language-processing",
+          title: 'Multimodal Natural Language Processing',
+          description: "Created a system for processing and integrating text and image data using advanced NLP techniques.",
           section: "Projects",handler: () => {
               window.location.href = "/al-folio/projects/2_project/";
             },},{id: "projects-project-3-with-very-long-name",
