@@ -11,7 +11,7 @@ profile:
   more_info: "3h 53' at the Murcia Marathon"
 
 selected_papers: true
-selected_projects: true
+selected_projects: false
 social: false
 
 announcements:
