@@ -8,7 +8,7 @@ profile:
   align: right
   image: prof_pic.jpg
   image_circular: true
-  more_info: 3h 53 at Murcia Marathon
+  more_info: "3h 53' at the Murcia Marathon"
 
 selected_papers: true
 selected_projects: true
